@@ -1,13 +1,13 @@
-# 🧠 Public Policy Sentiment & Awareness Analysis — India’s CoWIN Initiative
+# Public Policy Sentiment & Awareness Analysis — India’s CoWIN Initiative
 
-**Author:** [Your Name]  
+**Author:** Jay Chafale  
 **Course:** Machine Learning & Deep Learning (Section B)  
-**Instructor:** [Professor’s Name]  
+**Instructor:** Dr. Deepak Asudani  
 **Submission:** GitHub Repository (Notebook + Streamlit App + Report)
 
 ---
 
-## 📘 Overview
+## Overview
 
 This project focuses on analyzing **public sentiment and awareness around India’s CoWIN platform** — the official government portal for COVID-19 vaccination registration and tracking.
 
@@ -17,7 +17,7 @@ The goal is to demonstrate comparative performance across classical ML and neura
 
 ---
 
-## 🎯 Objectives
+##  Objectives
 
 1. **To build a sentiment classification pipeline** using real-world Indian Twitter data related to public policy (CoWIN).
 2. **To compare the performance** of ML and DL models on the same dataset.
@@ -26,7 +26,7 @@ The goal is to demonstrate comparative performance across classical ML and neura
 
 ---
 
-## 🧩 Problem Definition
+##  Problem Definition
 
 During India’s vaccination rollout, millions of citizens shared their experiences, concerns, and feedback about the **CoWIN platform** on Twitter.  
 Analyzing these reactions helps policymakers and technologists understand:
@@ -40,7 +40,7 @@ Thus, the **problem statement** is formulated as:
 
 ---
 
-## 📊 Dataset Description
+##  Dataset Description
 
 ### Source
 - **Dataset Name:** *CoWIN Twitter Dataset — Public Sentiment & Awareness (India)*  
@@ -71,7 +71,7 @@ Thus, the **problem statement** is formulated as:
 
 ---
 
-## 🧮 Methodology
+##  Methodology
 
 ### 1. Data Cleaning & Preprocessing
 - Applied regex-based cleaning to remove hyperlinks, mentions, and special characters.
@@ -111,7 +111,7 @@ Thus, the **problem statement** is formulated as:
 
 ---
 
-## 📈 Experimental Results
+##  Experimental Results
 
 | Model | Accuracy | F1-Score | Notes |
 |--------|-----------|----------|-------|
@@ -122,7 +122,7 @@ Thus, the **problem statement** is formulated as:
 **Observations:**
 ---
 
-## 🚀 Streamlit Web App
+##  Streamlit Web App
 
 An interactive interface was built using **Streamlit** for:
 - Real-time tweet sentiment prediction
@@ -139,7 +139,7 @@ streamlit run streamlit_app.py
 
 ---
 
-## 📊 Visualizations
+##  Visualizations
 
 - **Sentiment Distribution:** Proportion of positive vs negative tweets.
 - **Temporal Trend:** Sentiment over time (spikes around major announcements).
@@ -148,6 +148,4 @@ streamlit run streamlit_app.py
 
 ---
 
-
-## 💻 Project Structure
 
